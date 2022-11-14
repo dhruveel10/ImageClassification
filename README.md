@@ -9,3 +9,6 @@ Result after using GridSearchCV:
 	svm	                0.8181818181818182	{'svc__C': 1, 'svc__kernel': 'linear'}
 	random_forest	        0.5818181818181818	{'randomforestclassifier__n_estimators': 10}
 	logistic_regression	0.8545454545454545	{'logisticregression__C': 1}
+
+
+NOTE: For better accuracy increase the size of the dataset.
