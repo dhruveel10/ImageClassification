@@ -1,6 +1,7 @@
 # ImageClassification
-The model uses SVM, Random Forest and Linear Regression to classify pictures of different sports personality. The datasets has 7 different players. Chrome extension Fatkun is used to download the images. 
-CV2 is used to identify facial characteristics. Images are cropped and stored in a separate folder(folders created dynamically using python os module) such that if the player's eyes are clearly visible, use that image for the dataset else ignore.
+The model uses SVM, Random Forest and Linear Regression to classify pictures of different sports personalities. The dataset has 7 different players. 
+Chrome extension Fatkun is used to download the images. 
+CV2 is used to identify facial characteristics. Images are cropped and stored in a separate folder(folders created dynamically using the python os module) such that if the player's eyes are clearly visible, use that image for the dataset or else ignore it. 
 Wavelet is used to extract face features of the cropped images and use them to train the dataset.
 
 Result after using GridSearchCV:
